@@ -1,7 +1,7 @@
 {
   "scripts": {
-    "dev": "nodemon server.js",
-    "start": "node server.js"
+    "dev": "node init && nodemon server.js",
+    "start": "node init && node server.js"
   },
   "dependencies": {
     "bcrypt": "^5.1.0",
